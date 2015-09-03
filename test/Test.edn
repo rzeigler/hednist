@@ -1,0 +1,5 @@
+(1 2
+  ; This is a comment
+  3
+  #_(1 2 3)
+  {:a #{1 2 3}, :ns/b "hi"})
