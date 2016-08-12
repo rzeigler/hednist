@@ -15,9 +15,6 @@ import Numeric
 import Data.Hednist.Types
 import Data.Hednist.Parser
 
-instance Eq ParseError where
-   a == b = errorMessages a == errorMessages b
-
 parserTests = testGroup "Parser Tests"
   [ nilTests
   , characterTests
